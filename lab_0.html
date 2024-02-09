@@ -1,0 +1,53 @@
+
+<!-- Найдите и исправьте все ошибки в коде (использованы только изученные элементы). А так же поясните свои исправления. Знать структуру web-страницы пока не обязательно - задание больше на внимательность.  
+Вариант 3. 
+Создайте форму, позволяющую выбирать несколько из данных значений в поле погода: солнечно, пасмурно, сильный ветер и пр. Используйте теги <label> и <input>.
+-->
+
+<!-- mistake: missing language(HTML5) standard, but my latest browser version support it :)  -->
+<!DOCTYPE html>
+<!-- add html tag -->
+<html>
+<head>
+    <!-- service information -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Узнай на все 100 %!</title>
+</head>
+<!-- add body tag -->
+<body>
+    <!-- maybe "header" tag meant title  -->
+    <!-- <header></header> -->
+    <section>
+        <h1>Языки программирования</h1>
+        <figure>
+            <img src="https://www.python.org/static/img/python-logo.png">
+            <figcaption>Логотип Python</figcaption>
+        </figure>
+        <article>
+            <p>Изучать Python очень весело</p>
+            <p>Но нужно читать и практиковаться</p>
+            <p>И сильно-сильно стараться</p>
+        </article>    
+    </section>
+    <nav>
+        <a href="#">Главная страница</a><br>
+        <a href="#">Раздел 1</a><br>
+        <a href="#">Раздел 2</a><br>
+    </nav>
+    <p><h1>My task</h1></p>
+    <form>
+        <p>
+            <b>Weather selection...</b>
+        </p>
+        <p> 
+            <input type="checkbox" id="check1"><label for="check1">Sunny</label><br>
+            <input type="checkbox" id="check2"><label for="check2">Rainy</label><br>
+            <input type="checkbox" id="check3"><label for="check3">Fog</label><br>
+            <input type="checkbox" id="check4"><label for="check4">Windy</label>
+        <p><input type="submit" value="Send"></p>
+        </p>   
+    </form> 
+    <footer>Успехов в освоении</footer>
+</body>
+</html>
